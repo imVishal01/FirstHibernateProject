@@ -161,6 +161,8 @@ public class Main {
 
 		         System.out.println("Total Salary: " + totalSalary.get(0) );
 		         session.getTransaction().commit();
+		         
+		         System.out.println("2nd Helloooooo");
 		      }catch (HibernateException e) {
 		         if (session.getTransaction()!=null) session.getTransaction().rollback();
 		         e.printStackTrace(); 
