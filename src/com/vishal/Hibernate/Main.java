@@ -152,8 +152,12 @@ public class Main {
 		         // To get total salary.
 		         cr.setProjection(Projections.sum("salary"));
 		         List totalSalary = cr.list();
+
 		         
 		         System.out.println("Helloooooooo");
+
+
+		         //System.out.println("Total Salary: " + totalSalary.get(0) );
 
 		         System.out.println("Total Salary: " + totalSalary.get(0) );
 		         session.getTransaction().commit();
