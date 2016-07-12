@@ -45,8 +45,6 @@ public class Main {
 
 	      /* List down new list of the employees */
 	      ME.listEmployees();
-	      
-	      
 	      ME.totalSalary();
 		
 
